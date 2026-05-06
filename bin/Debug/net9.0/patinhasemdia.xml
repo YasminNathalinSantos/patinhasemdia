@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>patinhasemdia</name>
+    </assembly>
+    <members>
+        <member name="M:patinhasemdia.Controllers.EventosController.GetAll">
+            <summary>
+            Lista todos os eventos de cuidado
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.GetByPet(System.Int32)">
+            <summary>
+            Busca todos os eventos de um pet
+            </summary>
+            <param name="petId">ID do pet</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.GetByStatus(System.String)">
+            <summary>
+            Busca eventos pelo status
+            </summary>
+            <param name="status">Status do evento (PENDENTE, CONCLUIDO, ATRASADO)</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.GetAtrasados">
+            <summary>
+            Lista todos os eventos com data passada e status pendente
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.Create(patinhasemdia.Models.EventoCuidado)">
+            <summary>
+            Cria um novo evento de cuidado
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.Update(System.Int32,patinhasemdia.Models.EventoCuidado)">
+            <summary>
+            Atualiza um evento de cuidado existente
+            </summary>
+            <param name="id">ID do evento</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.EventosController.Delete(System.Int32)">
+            <summary>
+            Remove um evento de cuidado pelo ID
+            </summary>
+            <param name="id">ID do evento</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.GetAll">
+            <summary>
+            Lista todos os pets cadastrados
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.GetById(System.Int32)">
+            <summary>
+            Busca um pet pelo ID
+            </summary>
+            <param name="id">ID do pet</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.GetByTutor(System.Int32)">
+            <summary>
+            Busca todos os pets de um tutor
+            </summary>
+            <param name="tutorId">ID do tutor</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.ResumoSaude(System.Int32)">
+            <summary>
+            Retorna resumo de saúde do pet com contagem de eventos
+            </summary>
+            <param name="id">ID do pet</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.Create(patinhasemdia.Models.Pet)">
+            <summary>
+            Cria um novo pet
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.Update(System.Int32,patinhasemdia.Models.Pet)">
+            <summary>
+            Atualiza os dados de um pet existente
+            </summary>
+            <param name="id">ID do pet</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.PetsController.Delete(System.Int32)">
+            <summary>
+            Remove um pet pelo ID
+            </summary>
+            <param name="id">ID do pet</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.TutoresController.GetAll">
+            <summary>
+            Lista todos os tutores com seus pets
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.TutoresController.GetById(System.Int32)">
+            <summary>
+            Busca um tutor pelo ID com seus pets
+            </summary>
+            <param name="id">ID do tutor</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.TutoresController.Create(patinhasemdia.Models.Tutor)">
+            <summary>
+            Cria um novo tutor
+            </summary>
+        </member>
+        <member name="M:patinhasemdia.Controllers.TutoresController.Update(System.Int32,patinhasemdia.Models.Tutor)">
+            <summary>
+            Atualiza os dados de um tutor existente
+            </summary>
+            <param name="id">ID do tutor</param>
+        </member>
+        <member name="M:patinhasemdia.Controllers.TutoresController.Delete(System.Int32)">
+            <summary>
+            Remove um tutor pelo ID
+            </summary>
+            <param name="id">ID do tutor</param>
+        </member>
+        <member name="T:patinhasemdia.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:patinhasemdia.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:patinhasemdia.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:patinhasemdia.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
