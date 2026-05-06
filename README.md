@@ -302,8 +302,11 @@ patinhasemdia/
 ## 👥 Integrantes do Grupo
 
 | Nome | RM |
-|---|---|
-| — | — |
+|Yasmin Nathalin Miranda dos Santos|RM561365|
+|Lucas Da Silva Lima | RM562118 |
+|Riquelme Nasciemnto | RM565468 |
+|Enzo Franchin De Souza | RM565677 |
+
 
 ---
 
